@@ -1,0 +1,3983 @@
+{
+  "meta": {
+    "version": "3.0.0",
+    "lastUpdated": "2026-04-10",
+    "description": "国内声优资料库数据文件 - 编辑此文件可更新声优信息"
+  },
+  "filters": {
+    "gender": [
+      "男",
+      "女"
+    ],
+    "voiceTypes": [
+      "少年音",
+      "青年音",
+      "御姐音",
+      "萝莉音",
+      "大叔音",
+      "中性音",
+      "性感低音",
+      "暖男音",
+      "清冷音",
+      "元气音"
+    ],
+    "tags": [
+      "王者荣耀",
+      "原神",
+      "动画配音",
+      "电视剧演员",
+      "广播剧",
+      "电影配音",
+      "恋与制作人",
+      "仙剑奇侠传",
+      "仙侠剧",
+      "秦时明月",
+      "崩坏系列",
+      "斗罗大陆"
+    ],
+    "tiers": [
+      "一线",
+      "准一线",
+      "新生代"
+    ]
+  },
+  "seiyuus": [
+    {
+      "id": "bian-jiang",
+      "name": "边江",
+      "gender": "男",
+      "tier": "一线",
+      "avatar": "",
+      "studio": "边江工作室",
+      "voiceTypes": [
+        "青年音",
+        "清冷音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "恋与制作人",
+        "电视剧演员",
+        "仙剑奇侠传",
+        "动画配音"
+      ],
+      "bio": "国内顶级男性声优，边江工作室创始人。声线清朗磁性，擅长演绎各种类型的青年男性角色，尤其擅长'男神音'。影视剧、游戏、动画领域均有大量代表作。",
+      "works": [
+        {
+          "character": "李白",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "周棋洛",
+          "work": "恋与制作人",
+          "type": "游戏"
+        },
+        {
+          "character": "陵越",
+          "work": "古剑奇谭",
+          "type": "游戏"
+        },
+        {
+          "character": "越今朝",
+          "work": "仙剑奇侠传六",
+          "type": "游戏"
+        },
+        {
+          "character": "皇甫卓",
+          "work": "仙剑奇侠传五前传",
+          "type": "游戏"
+        },
+        {
+          "character": "怀朔",
+          "work": "仙剑奇侠传四",
+          "type": "游戏"
+        },
+        {
+          "character": "夜华",
+          "work": "三生三世十里桃花",
+          "type": "电视剧"
+        },
+        {
+          "character": "何以琛",
+          "work": "何以笙箫默",
+          "type": "电视剧"
+        },
+        {
+          "character": "无心",
+          "work": "无心法师",
+          "type": "电视剧"
+        },
+        {
+          "character": "令狐冲",
+          "work": "笑傲江湖",
+          "type": "电视剧"
+        },
+        {
+          "character": "齐晟",
+          "work": "太子妃升职记",
+          "type": "电视剧"
+        },
+        {
+          "character": "韦小宝",
+          "work": "鹿鼎记",
+          "type": "电视剧"
+        },
+        {
+          "character": "李星云",
+          "work": "画江湖之不良人",
+          "type": "动画"
+        },
+        {
+          "character": "百里登风",
+          "work": "画江湖之灵主",
+          "type": "动画"
+        },
+        {
+          "character": "归海/游不动",
+          "work": "侠岚",
+          "type": "动画"
+        },
+        {
+          "character": "夏侯惇",
+          "work": "三国演义（动画）",
+          "type": "动画"
+        },
+        {
+          "character": "姬云烈",
+          "work": "魂（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "边江配音角色合集",
+          "desc": "涵盖李白、夜华、何以琛等经典角色",
+          "category": "角色合集",
+          "bvid": "BV1a94y1a7xd"
+        }
+      ],
+      "bilibiliSpace": "201563797"
+    },
+    {
+      "id": "zhang-jie",
+      "name": "张杰（阿杰）",
+      "gender": "男",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "青年音",
+        "暖男音",
+        "少年音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "动画配音",
+        "恋与制作人",
+        "仙剑奇侠传",
+        "电影配音",
+        "广播剧"
+      ],
+      "bio": "729声工场创始人，业内公认的'配音界一哥'。声线温暖有感染力，戏路极广，从少年到中年角色都能完美驾驭。作品横跨游戏、动画、电影、电视剧、广播剧五大领域。",
+      "works": [
+        {
+          "character": "周瑜",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "白起",
+          "work": "恋与制作人",
+          "type": "游戏"
+        },
+        {
+          "character": "龙幽",
+          "work": "仙剑奇侠传五",
+          "type": "游戏"
+        },
+        {
+          "character": "叶修",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "东方月初",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "温实初",
+          "work": "甄嬛传",
+          "type": "电视剧"
+        },
+        {
+          "character": "百里屠苏",
+          "work": "古剑奇谭",
+          "type": "电视剧"
+        },
+        {
+          "character": "齐铁嘴",
+          "work": "老九门",
+          "type": "电视剧"
+        },
+        {
+          "character": "张小凡",
+          "work": "青云志",
+          "type": "电视剧"
+        },
+        {
+          "character": "乾隆",
+          "work": "延禧攻略",
+          "type": "电视剧"
+        },
+        {
+          "character": "刘启",
+          "work": "流浪地球",
+          "type": "电影"
+        },
+        {
+          "character": "长庚",
+          "work": "杀破狼（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "丁仪",
+          "work": "三体（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "小蘑菇",
+          "work": "小蘑菇（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "阿杰729配音代表作",
+          "desc": "全职高手叶修配音等经典作品",
+          "category": "角色合集",
+          "bvid": "BV1Gt421H7bW"
+        }
+      ],
+      "bilibiliSpace": "946974",
+      "tier": "一线"
+    },
+    {
+      "id": "xia-liguang",
+      "name": "夏磊",
+      "gender": "男",
+      "tier": "一线",
+      "avatar": "",
+      "studio": "音熊联萌",
+      "voiceTypes": [
+        "青年音",
+        "大叔音",
+        "清冷音"
+      ],
+      "tags": [
+        "原神",
+        "动画配音",
+        "王者荣耀",
+        "广播剧",
+        "恋与制作人",
+        "仙剑奇侠传"
+      ],
+      "bio": "资深配音演员，音熊联萌联合创始人。声线沉稳大气，擅长正气凛然的角色。作品横跨游戏、动画、电视剧和广播剧领域。",
+      "works": [
+        {
+          "character": "钟离",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "白起",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "百里屠苏",
+          "work": "古剑奇谭",
+          "type": "游戏"
+        },
+        {
+          "character": "李逍遥",
+          "work": "仙剑奇侠传",
+          "type": "游戏"
+        },
+        {
+          "character": "许墨",
+          "work": "恋与制作人",
+          "type": "游戏"
+        },
+        {
+          "character": "喻文州",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "周子舒",
+          "work": "天涯客（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "杰西卡·琼斯",
+          "work": "蝙蝠侠：黑暗骑士崛起（译制）",
+          "type": "电影"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "夏磊配音作品展示",
+          "desc": "钟离、李逍遥等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1bp411d7u1"
+        }
+      ],
+      "bilibiliSpace": ""
+    },
+    {
+      "id": "yang-tianxiang",
+      "name": "杨天翔",
+      "gender": "男",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "青年音",
+        "少年音",
+        "暖男音"
+      ],
+      "tags": [
+        "原神",
+        "王者荣耀",
+        "动画配音",
+        "电视剧演员",
+        "广播剧",
+        "电影配音",
+        "仙剑奇侠传"
+      ],
+      "bio": "新生代实力派男声优兼配音导演，729声工场核心成员。声线干净清澈，戏路极广，从阳光少年到成熟男性角色均有精彩演绎，近年来活跃度极高。",
+      "works": [
+        {
+          "character": "温迪",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "百里玄策",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "陆景和",
+          "work": "未定事件簿",
+          "type": "游戏"
+        },
+        {
+          "character": "修吾",
+          "work": "仙剑奇侠传七",
+          "type": "游戏"
+        },
+        {
+          "character": "白月初",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "陆光",
+          "work": "时光代理人",
+          "type": "动画"
+        },
+        {
+          "character": "金光瑶",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "高适",
+          "work": "长安三万里",
+          "type": "动画"
+        },
+        {
+          "character": "许宣",
+          "work": "白蛇：缘起",
+          "type": "动画"
+        },
+        {
+          "character": "李云祥",
+          "work": "新神榜：哪吒重生",
+          "type": "动画"
+        },
+        {
+          "character": "方兰生",
+          "work": "古剑奇谭",
+          "type": "电视剧"
+        },
+        {
+          "character": "二月红",
+          "work": "老九门",
+          "type": "电视剧"
+        },
+        {
+          "character": "白真",
+          "work": "三生三世十里桃花",
+          "type": "电视剧"
+        },
+        {
+          "character": "厉尘澜",
+          "work": "招摇",
+          "type": "电视剧"
+        },
+        {
+          "character": "空海",
+          "work": "妖猫传",
+          "type": "电影"
+        },
+        {
+          "character": "费渡",
+          "work": "默读（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "商细蕊",
+          "work": "鬓边不是海棠红（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "吴邪",
+          "work": "重启之极海听雷（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "杨天翔配音声展",
+          "desc": "温迪、白月初、金光瑶等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1Yk4y1c7Ui"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "jiang-guangtao",
+      "name": "姜广涛",
+      "gender": "男",
+      "avatar": "",
+      "studio": "光合积木",
+      "voiceTypes": [
+        "青年音",
+        "大叔音",
+        "暖男音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "仙剑奇侠传",
+        "动画配音",
+        "电视剧演员",
+        "电影配音",
+        "广播剧"
+      ],
+      "bio": "光合积木创始人，国内配音界的标杆人物。声线沉稳优雅，戏路极广，从正剧到动画、电影译制均有涉猎，被誉为'配音界的教科书'。",
+      "works": [
+        {
+          "character": "诸葛亮",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "姜云凡",
+          "work": "仙剑奇侠传五",
+          "type": "游戏"
+        },
+        {
+          "character": "梅长苏",
+          "work": "琅琊榜",
+          "type": "电视剧"
+        },
+        {
+          "character": "陈萍萍",
+          "work": "庆余年",
+          "type": "电视剧"
+        },
+        {
+          "character": "谢怜",
+          "work": "天官赐福",
+          "type": "动画"
+        },
+        {
+          "character": "秦时明月（多角色）",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "非人哉（多角色）",
+          "work": "非人哉",
+          "type": "动画"
+        },
+        {
+          "character": "杰克",
+          "work": "泰坦尼克号（DVD译制）",
+          "type": "电影"
+        },
+        {
+          "character": "山姆",
+          "work": "变形金刚（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "李允浩",
+          "work": "搞笑一家人（韩剧译制）",
+          "type": "电视剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "姜广涛配音作品节选",
+          "desc": "梅长苏、谢怜等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1bp4y1j7DT"
+        }
+      ],
+      "bilibiliSpace": "3709586",
+      "tier": "一线"
+    },
+    {
+      "id": "liu-yaning",
+      "name": "刘琮",
+      "gender": "男",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "大叔音",
+        "性感低音",
+        "青年音"
+      ],
+      "tags": [
+        "动画配音",
+        "电视剧演员",
+        "电影配音",
+        "广播剧"
+      ],
+      "bio": "729声工场主力成员，以低沉浑厚的嗓音闻名，擅长成熟稳重的男性角色，被粉丝称为'行走的低音炮'。同时活跃于电影配音和纪录片解说领域。",
+      "works": [
+        {
+          "character": "末日铁拳",
+          "work": "守望先锋（译制）",
+          "type": "游戏"
+        },
+        {
+          "character": "张楚岚",
+          "work": "一人之下",
+          "type": "动画"
+        },
+        {
+          "character": "MOSS",
+          "work": "流浪地球/流浪地球2",
+          "type": "电影"
+        },
+        {
+          "character": "范德尔",
+          "work": "英雄联盟：双城之战（译制）",
+          "type": "动画"
+        },
+        {
+          "character": "谢允",
+          "work": "有翡",
+          "type": "电视剧"
+        },
+        {
+          "character": "赵云",
+          "work": "虎啸龙吟",
+          "type": "电视剧"
+        },
+        {
+          "character": "张起灵",
+          "work": "盗墓笔记（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "陆游七",
+          "work": "银之守墓人",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "纪录片专业户刘琮",
+          "desc": "刘琮配音作品展示",
+          "category": "角色合集",
+          "bvid": "BV1ukp7emEqb"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "sun-lu",
+      "name": "孙路路",
+      "gender": "男",
+      "avatar": "",
+      "studio": "光合积木",
+      "voiceTypes": [
+        "青年音",
+        "少年音",
+        "暖男音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "光合积木工作室成员，声线温暖柔和，特别擅长演绎温柔体贴的男性角色，在广播剧领域颇受欢迎。",
+      "works": [
+        {
+          "character": "行秋",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "蓝思追",
+          "work": "魔道祖师（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "林杨",
+          "work": "你好旧时光",
+          "type": "电视剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "孙路路配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1c6421V7UM"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "wen-ze",
+      "name": "文森",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "性感低音"
+      ],
+      "tags": [
+        "广播剧",
+        "动画配音"
+      ],
+      "bio": "人气声优，以低沉磁性的嗓音著称，在广播剧和动画领域都有大量拥趸。",
+      "works": [
+        {
+          "character": "楚晚宁",
+          "work": "二哈和他的白猫师尊（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "沈清秋",
+          "work": "人渣反派自救系统（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "文森配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1EW4y197Yn"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "jin-xian",
+      "name": "金弦",
+      "gender": "男",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "原神",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "729声工场主力成员兼配音导演，加拿大籍华人，毕业于多伦多大学。音色清亮华丽，戏路宽广，在动画、游戏和广播剧领域均有大量标志性角色。同时也是独立音乐人，已发行多张专辑。",
+      "works": [
+        {
+          "character": "周泽楷",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "蓝曦臣",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "夏彦",
+          "work": "未定事件簿",
+          "type": "游戏"
+        },
+        {
+          "character": "董易/夏斐",
+          "work": "时光代理人",
+          "type": "动画"
+        },
+        {
+          "character": "顾青裴",
+          "work": "针锋对决（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "克莱恩",
+          "work": "诡秘之主（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "花忱",
+          "work": "花亦山心之月",
+          "type": "游戏"
+        },
+        {
+          "character": "须佐之男",
+          "work": "阴阳师",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "金弦配音声展",
+          "desc": "达达利亚、魏无羡等角色配音",
+          "category": "角色合集",
+          "bvid": "BV1UN411v7bC"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "sujia-qi",
+      "name": "苏尚卿",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少年音",
+        "青年音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "动画配音",
+        "原神"
+      ],
+      "bio": "年轻一代声优中的佼佼者，擅长少年音，声线清新自然。",
+      "works": [
+        {
+          "character": "元歌",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "空",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "唐三",
+          "work": "斗罗大陆",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "苏尚卿配音作品",
+          "desc": "元歌、空、唐三等少年角色配音",
+          "category": "角色合集",
+          "bvid": "BV1G34y1P7U1"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "gu-jiangshan",
+      "name": "谷江山",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音",
+        "暖男音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧",
+        "动画配音"
+      ],
+      "bio": "人气新生代声优，声线温暖明亮，擅长阳光少年和温柔青年角色。",
+      "works": [
+        {
+          "character": "班尼特",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "罗小黑",
+          "work": "罗小黑战记",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "谷江山配音作品集",
+          "desc": "班尼特、罗小黑等知名角色配音",
+          "category": "角色合集",
+          "bvid": "BV1wc411d78C"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "chen-tao",
+      "name": "陈张太康",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "原神",
+        "动画配音"
+      ],
+      "bio": "声线清朗有少年感，擅长热血少年和成长型角色。",
+      "works": [
+        {
+          "character": "迪卢克",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "钟离（少年时期）",
+          "work": "原神",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "陈张太康配音展示",
+          "desc": "迪卢克等角色配音",
+          "category": "角色合集",
+          "bvid": "BV1bF4m1j7uc"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "qian-wen",
+      "name": "钱文青",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "清冷音",
+        "少年音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "90后配音演员兼配音导演。声线清朗有少年感，戏路广，从少年热血到成熟御姐型的女性角色均有涉猎，在原神中贡献了多个标志性配音。",
+      "works": [
+        {
+          "character": "甘雨",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "雷电将军",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "妮露",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "韩立",
+          "work": "凡人修仙传",
+          "type": "动画"
+        },
+        {
+          "character": "王陆",
+          "work": "从前有座灵剑山",
+          "type": "电视剧"
+        },
+        {
+          "character": "郭靖",
+          "work": "射雕英雄传（2017版）",
+          "type": "电视剧"
+        },
+        {
+          "character": "张显宗",
+          "work": "无心法师",
+          "type": "电视剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "钱文青配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV123411M7cy"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "shen-daxia",
+      "name": "大鲲",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "大叔音",
+        "青年音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "动画配音"
+      ],
+      "bio": "资深男声优，声线浑厚有力，擅长武将和成熟男性角色。",
+      "works": [
+        {
+          "character": "程咬金",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "吕布",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "张飞",
+          "work": "三国演义（动画）",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "大鲲配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1uQ4y1A7mQ"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "qiao-shiyue",
+      "name": "乔诗语",
+      "gender": "女",
+      "avatar": "",
+      "studio": "光合积木",
+      "voiceTypes": [
+        "御姐音",
+        "少女音",
+        "清冷音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "仙剑奇侠传",
+        "动画配音",
+        "电视剧演员",
+        "广播剧",
+        "仙侠剧"
+      ],
+      "bio": "国内顶级女声优之一，声线清亮有辨识度，戏路极广。从活泼少女到霸气御姐都能驾驭，被誉为'古偶剧配音女王'。作品横跨电视剧、动画、游戏和广播剧。",
+      "works": [
+        {
+          "character": "不知火舞",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "小蛮",
+          "work": "仙剑奇侠传五",
+          "type": "游戏"
+        },
+        {
+          "character": "洛昭言",
+          "work": "仙剑奇侠传六",
+          "type": "游戏"
+        },
+        {
+          "character": "风晴雪",
+          "work": "古剑奇谭",
+          "type": "游戏"
+        },
+        {
+          "character": "唐柔",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "冯宝宝",
+          "work": "一人之下",
+          "type": "动画"
+        },
+        {
+          "character": "江厌离",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "涂山容容",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "楚雨荨",
+          "work": "一起来看流星雨",
+          "type": "电视剧"
+        },
+        {
+          "character": "洛晴川",
+          "work": "宫锁心玉",
+          "type": "电视剧"
+        },
+        {
+          "character": "张芃芃",
+          "work": "太子妃升职记",
+          "type": "电视剧"
+        },
+        {
+          "character": "楚乔",
+          "work": "楚乔传",
+          "type": "电视剧"
+        },
+        {
+          "character": "白凤九",
+          "work": "三生三世十里桃花",
+          "type": "电视剧"
+        },
+        {
+          "character": "褚璇玑",
+          "work": "琉璃",
+          "type": "电视剧"
+        },
+        {
+          "character": "李长歌",
+          "work": "长歌行",
+          "type": "电视剧"
+        },
+        {
+          "character": "纪云禾",
+          "work": "与君初相识",
+          "type": "电视剧"
+        },
+        {
+          "character": "尹新月",
+          "work": "老九门",
+          "type": "电视剧"
+        },
+        {
+          "character": "萧元漪",
+          "work": "星汉灿烂",
+          "type": "电视剧"
+        },
+        {
+          "character": "苏落盏",
+          "work": "默读（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "乔诗语配音作品盘点",
+          "desc": "楚乔、白凤九、褚璇玑等经典角色",
+          "category": "角色合集",
+          "bvid": "BV16k4y187y7"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "ji-guixia",
+      "name": "季冠霖",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "御姐音",
+        "少女音",
+        "暖女音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "仙剑奇侠传",
+        "动画配音",
+        "电视剧演员",
+        "电影配音",
+        "广播剧",
+        "仙侠剧"
+      ],
+      "bio": "国内最具知名度的女声优之一，被誉为'甄嬛御用配音'。声线温柔大气，尤其擅长古装剧中的女性角色。同时活跃于电影译制、动画和游戏领域，作品数量惊人。",
+      "works": [
+        {
+          "character": "甄嬛",
+          "work": "甄嬛传",
+          "type": "电视剧"
+        },
+        {
+          "character": "芈月",
+          "work": "芈月传",
+          "type": "电视剧"
+        },
+        {
+          "character": "武则天",
+          "work": "武媚娘传奇",
+          "type": "电视剧"
+        },
+        {
+          "character": "小龙女",
+          "work": "神雕侠侣",
+          "type": "电视剧"
+        },
+        {
+          "character": "赵敏/周芷若",
+          "work": "倚天屠龙记",
+          "type": "电视剧"
+        },
+        {
+          "character": "白浅",
+          "work": "三生三世十里桃花",
+          "type": "电视剧"
+        },
+        {
+          "character": "东方不败",
+          "work": "笑傲江湖",
+          "type": "电视剧"
+        },
+        {
+          "character": "李未央",
+          "work": "锦绣未央",
+          "type": "电视剧"
+        },
+        {
+          "character": "窦漪房",
+          "work": "美人心计",
+          "type": "电视剧"
+        },
+        {
+          "character": "司藤",
+          "work": "司藤",
+          "type": "电视剧"
+        },
+        {
+          "character": "凤卿尘",
+          "work": "醉玲珑",
+          "type": "电视剧"
+        },
+        {
+          "character": "独孤伽罗",
+          "work": "独孤皇后",
+          "type": "电视剧"
+        },
+        {
+          "character": "陆雪琪",
+          "work": "青云志",
+          "type": "电视剧"
+        },
+        {
+          "character": "唐雨柔",
+          "work": "仙剑奇侠传五",
+          "type": "游戏"
+        },
+        {
+          "character": "长孙忘情",
+          "work": "剑侠情缘网络版叁",
+          "type": "游戏"
+        },
+        {
+          "character": "青行灯",
+          "work": "决战平安京",
+          "type": "游戏"
+        },
+        {
+          "character": "椿",
+          "work": "大鱼海棠",
+          "type": "动画"
+        },
+        {
+          "character": "陈果",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "虞紫鸢",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "黑寡妇",
+          "work": "复仇者联盟系列（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "奈蒂莉",
+          "work": "阿凡达（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "贝儿",
+          "work": "美女与野兽（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "兔朱迪",
+          "work": "疯狂动物城（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "灵文",
+          "work": "天官赐福（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "貂蝉",
+          "work": "王者荣耀",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "季冠霖配音现场",
+          "desc": "甄嬛御用配音，现场配音如同本人",
+          "category": "声展",
+          "bvid": "BV1Qg4y197BP"
+        }
+      ],
+      "bilibiliSpace": "1594297450",
+      "tier": "一线"
+    },
+    {
+      "id": "tong-liya-va",
+      "name": "佟心竹（小连杀）",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "元气音",
+        "萝莉音",
+        "少女音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神"
+      ],
+      "bio": "知名女声优，以元气满满的声线著称，在动画和游戏领域都有出色表现。",
+      "works": [
+        {
+          "character": "可莉",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "涂山苏苏",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "小连杀配音趣闻",
+          "desc": "小连杀配音工作花絮",
+          "category": "花絮",
+          "bvid": "BV1MmDtBQEUc"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "huo-zhenni",
+      "name": "花玲",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "元气音",
+        "萝莉音",
+        "少女音"
+      ],
+      "tags": [
+        "原神",
+        "动画配音"
+      ],
+      "bio": "新生代人气女声优，中日双语配音演员兼歌手。声线甜美灵动，擅长可爱系少女角色。B站个人空间有大量配音作品。",
+      "works": [
+        {
+          "character": "七七",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "多莉",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "艾米",
+          "work": "斗罗大陆",
+          "type": "动画"
+        },
+        {
+          "character": "德丽莎",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "可莉",
+          "work": "原神（生日贺图配音）",
+          "type": "游戏"
+        },
+        {
+          "character": "佐伊",
+          "work": "英雄联盟",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "花玲配音作品盘点",
+          "desc": "七七、德丽莎、佐伊等角色",
+          "category": "角色合集",
+          "bvid": "BV1Tu4y1J7WD"
+        }
+      ],
+      "bilibiliSpace": "7966",
+      "tier": "准一线"
+    },
+    {
+      "id": "wuma-xiao",
+      "name": "陶典",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少女音",
+        "元气音",
+        "御姐音"
+      ],
+      "tags": [
+        "原神",
+        "王者荣耀",
+        "动画配音",
+        "电影配音"
+      ],
+      "bio": "全能型女声优，毕业于上海电影译制厂。声线自然清新、干净甜美，风格多变。活跃于游戏、动画、电影译制等多个领域。",
+      "works": [
+        {
+          "character": "刻晴",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "公孙离",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "冯宝宝",
+          "work": "一人之下（手游）",
+          "type": "游戏"
+        },
+        {
+          "character": "小舞",
+          "work": "斗罗大陆",
+          "type": "动画"
+        },
+        {
+          "character": "亚丝翠",
+          "work": "驯龙高手（译制）",
+          "type": "动画"
+        },
+        {
+          "character": "提亚哥",
+          "work": "里约大冒险2（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "哪吒",
+          "work": "我是哪吒",
+          "type": "动画"
+        },
+        {
+          "character": "洛洛克",
+          "work": "洛克王国4（动画电影）",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "陶典配音展示",
+          "desc": "刻晴、小舞、公孙离等角色",
+          "category": "角色合集",
+          "bvid": "BV1vw411q7UP"
+        }
+      ],
+      "bilibiliSpace": "8664606",
+      "tier": "一线"
+    },
+    {
+      "id": "ye-lingtian",
+      "name": "宴宁",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "御姐音",
+        "性感低音",
+        "清冷音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧"
+      ],
+      "bio": "以低沉性感的声线著称，特别擅长御姐型和成熟女性角色。",
+      "works": [
+        {
+          "character": "夜兰",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "凝光",
+          "work": "原神",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "宴宁配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1wu4y1Y7XT"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "niu-si-yuan",
+      "name": "喵酱（陈婷）",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "萝莉音",
+        "元气音",
+        "少女音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神"
+      ],
+      "bio": "擅长萝莉和少女音的女声优，声线甜美可爱，戏路灵活。",
+      "works": [
+        {
+          "character": "安柏",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "诺艾尔",
+          "work": "原神",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "喵酱配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1fu4y1W7Sf"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "shan-xin",
+      "name": "山新",
+      "gender": "女",
+      "tier": "一线",
+      "avatar": "",
+      "studio": "北斗企鹅",
+      "voiceTypes": [
+        "萝莉音",
+        "元气音",
+        "少女音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神"
+      ],
+      "bio": "北斗企鹅工作室联合创始人，洛天依声源提供者。声线干净清澈，从萝莉到御姐都能驾驭，在国产动画配音领域极具影响力。",
+      "works": [
+        {
+          "character": "罗小黑/罗小白",
+          "work": "罗小黑战记",
+          "type": "动画"
+        },
+        {
+          "character": "哪吒/女王大人",
+          "work": "十万个冷笑话",
+          "type": "动画"
+        },
+        {
+          "character": "琴",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "涂山红红",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "洛天依",
+          "work": "洛天依（声源）",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "山新配音作品展示",
+          "desc": "罗小黑/琴/洛天依声源等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1JF41167Xj"
+        }
+      ],
+      "bilibiliSpace": ""
+    },
+    {
+      "id": "shen-lei",
+      "name": "沈磊",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "大叔音",
+        "清冷音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "斗罗大陆",
+        "秦时明月",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "国家一级演员，上海话剧艺术中心演员。声线沉稳儒雅，擅长王者气质和文武双全的角色，在国产3D动画领域有大量标志性配音。",
+      "works": [
+        {
+          "character": "赵云/诸葛亮",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "唐昊",
+          "work": "斗罗大陆",
+          "type": "动画"
+        },
+        {
+          "character": "秦始皇嬴政",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "胡歌（多部）",
+          "work": "琅琊榜/仙剑奇侠传三",
+          "type": "电视剧"
+        },
+        {
+          "character": "霍建华（多部）",
+          "work": "花千骨",
+          "type": "电视剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "沈磊配音作品展示",
+          "desc": "赵云/诸葛亮/唐昊等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1MP411b7wf"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "lv-yanting",
+      "name": "吕艳婷",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少年音",
+        "元气音",
+        "萝莉音"
+      ],
+      "tags": [
+        "电影配音",
+        "动画配音"
+      ],
+      "bio": "因配音《哪吒之魔童降世》中的哪吒而家喻户晓，是国产动画电影票房纪录的幕后功臣。声线独特，擅长桀骜不驯的少年角色。",
+      "works": [
+        {
+          "character": "哪吒",
+          "work": "哪吒之魔童降世/魔童闹海",
+          "type": "动画"
+        },
+        {
+          "character": "北冥雪",
+          "work": "神兵小将2",
+          "type": "动画"
+        },
+        {
+          "character": "上官琉",
+          "work": "斗魂卫之玄月奇缘",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "吕艳婷配音作品展示",
+          "desc": "哪吒等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1mN4y1v7eu"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "shen-dawei",
+      "name": "沈达威",
+      "gender": "男",
+      "avatar": "",
+      "studio": "音熊联萌",
+      "voiceTypes": [
+        "少年音",
+        "青年音",
+        "元气音"
+      ],
+      "tags": [
+        "动画配音",
+        "秦时明月",
+        "电影配音"
+      ],
+      "bio": "音熊联萌联合创始人，声线清澈明亮辨识度极高。擅长性格鲜明的少年角色，在国产动画配音领域是标杆性人物。",
+      "works": [
+        {
+          "character": "柯南（中配）",
+          "work": "名侦探柯南",
+          "type": "动画"
+        },
+        {
+          "character": "天明",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "Cookie",
+          "work": "我为歌狂",
+          "type": "动画"
+        },
+        {
+          "character": "蜡笔小新（中配）",
+          "work": "蜡笔小新",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "沈达威配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1sZ421b7v1"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "hong-haitian",
+      "name": "洪海天",
+      "gender": "女",
+      "avatar": "",
+      "studio": "海天工作室",
+      "voiceTypes": [
+        "少女音",
+        "少年音",
+        "御姐音"
+      ],
+      "tags": [
+        "秦时明月",
+        "动画配音",
+        "电影配音"
+      ],
+      "bio": "资深女声优、配音导演，海天工作室创始人。6岁起便参与动画配音，在国产动画领域深耕数十年，代表作无数。",
+      "works": [
+        {
+          "character": "锐雯/艾希",
+          "work": "英雄联盟",
+          "type": "游戏"
+        },
+        {
+          "character": "猎空/查莉娅",
+          "work": "守望先锋",
+          "type": "游戏"
+        },
+        {
+          "character": "赤练/石兰",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "舒克",
+          "work": "舒克和贝塔",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "洪海天配音作品展示",
+          "desc": "赤练/锐雯/猎空等经典角色配音",
+          "category": "角色合集",
+          "bvid": "BV1hC4y1M7HQ"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "hanser",
+      "name": "Hanser",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "萝莉音",
+        "少女音",
+        "元气音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "原神",
+        "广播剧"
+      ],
+      "bio": "知名虚拟主播、歌手兼配音演员，B站人气极高。声线甜美治愈，可御可萌，在游戏配音和虚拟主播领域均有极大影响力。",
+      "works": [
+        {
+          "character": "银狼",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "布洛妮娅",
+          "work": "崩坏3/崩坏学园2",
+          "type": "游戏"
+        },
+        {
+          "character": "弥娅",
+          "work": "奥奇传说",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "Hanser配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1gN4y127gG"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "kinsen",
+      "name": "kinsen",
+      "gender": "男",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "青年音",
+        "少年音",
+        "清冷音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧",
+        "崩坏系列"
+      ],
+      "bio": "奇响天外配音工作室成员，B站知名UP主。声线清冷有质感，在广播剧和游戏配音领域都有大量粉丝。",
+      "works": [
+        {
+          "character": "魈",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "重云",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "常羽",
+          "work": "战双帕弥什",
+          "type": "游戏"
+        },
+        {
+          "character": "热干面",
+          "work": "食物语",
+          "type": "游戏"
+        },
+        {
+          "character": "蒋忠",
+          "work": "将进酒（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "kinsen配音作品展示",
+          "desc": "魈/重云等原神角色配音",
+          "category": "角色合集",
+          "bvid": "BV1Su4y1a7jj"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "zhao-lu",
+      "name": "赵路",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "上海电影译制厂配音演员兼同人歌手。声线清朗有表现力，在动画、电视剧和游戏配音领域均有大量作品。",
+      "works": [
+        {
+          "character": "李白",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "东方彧卿",
+          "work": "花千骨",
+          "type": "电视剧"
+        },
+        {
+          "character": "丁隐",
+          "work": "蜀山战纪",
+          "type": "电视剧"
+        },
+        {
+          "character": "神荼",
+          "work": "勇者大冒险",
+          "type": "动画"
+        },
+        {
+          "character": "萧炎",
+          "work": "斗破苍穹",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "赵路配音作品展示",
+          "desc": "李白/萧炎/花千骨配音等经典角色",
+          "category": "角色合集",
+          "bvid": "BV1Xk4y1w7oT"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "zhai-wei",
+      "name": "翟巍",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "大叔音"
+      ],
+      "tags": [
+        "电影配音",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "上海电影译制厂译制导演兼配音演员，毕业于华东师范大学。在电影译制领域尤为活跃，是国内顶级译制配音人才。",
+      "works": [
+        {
+          "character": "美国队长（中配）",
+          "work": "复仇者联盟系列",
+          "type": "电影"
+        },
+        {
+          "character": "多角色",
+          "work": "变形金刚系列（译制）",
+          "type": "电影"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "翟巍配音作品展示",
+          "desc": "电影译制/动画配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1Sc411B7tr"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "liu-beichen",
+      "name": "刘北辰",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "广播剧",
+        "电视剧演员",
+        "动画配音"
+      ],
+      "bio": "知名男声优，在广播剧和影视剧配音领域均有出色表现，声线温暖有磁性。",
+      "works": [
+        {
+          "character": "顾魏",
+          "work": "余生请多指教",
+          "type": "电视剧"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "刘北辰配音作品展示",
+          "desc": "广播剧/电视剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1ch4y1a7fu"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "liu-zhaokan",
+      "name": "刘照坤",
+      "gender": "男",
+      "avatar": "",
+      "studio": "光合积木",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "广播剧",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "光合积木工作室成员，声线温和有亲和力，在广播剧和动画配音领域活跃。",
+      "works": [
+        {
+          "character": "蓝曦臣",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "刘照坤配音作品展示",
+          "desc": "蓝曦臣/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1Cp4y1T7y7"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "wu-lei-cv",
+      "name": "吴磊（配音）",
+      "gender": "男",
+      "avatar": "",
+      "studio": "领声文化",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "电影配音",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "上海电影译制厂译制导演兼配音演员，毕业于上海戏剧学院。与赵乾景、狄菲菲共同创办领声文化。在电影译制领域多次获华表奖。",
+      "works": [
+        {
+          "character": "罗恩",
+          "work": "哈利·波特系列（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "阿拉丁",
+          "work": "阿拉丁（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "克斯托夫",
+          "work": "冰雪奇缘（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "蜘蛛侠",
+          "work": "蜘蛛侠：平行宇宙（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "吴磊配音作品展示",
+          "desc": "动画/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1q94y1s7Gw"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "yu-dong",
+      "name": "鱼冻（李春胤）",
+      "gender": "男",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "原神",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "奇响天外工作室成员，毕业于上海大学数字媒体技术专业。声线温柔有磁性，在游戏和广播剧领域均有大量人气角色。",
+      "works": [
+        {
+          "character": "丹恒",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "达达利亚",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "夜枭",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "茶杯头",
+          "work": "茶杯头大冒险（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "司凛",
+          "work": "欢迎来到噩梦游戏（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "鱼冻配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1X34y1M7hb"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "chen-yiwen",
+      "name": "陈奕雯",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少女音",
+        "御姐音",
+        "萝莉音"
+      ],
+      "tags": [
+        "动画配音",
+        "电影配音",
+        "电视剧演员"
+      ],
+      "bio": "毕业于同济大学广播电视编导专业，2010年经资深配音演员王苏引荐入行。声线自然清新，戏路宽广，从萝莉到御姐均可驾驭。",
+      "works": [
+        {
+          "character": "佩奇",
+          "work": "小猪佩奇（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "纳西妲",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "爱莉希雅",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "若男",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "多角色",
+          "work": "电影译制多部",
+          "type": "电影"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "陈奕雯配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1G1421m7ju"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "sun-ye",
+      "name": "孙晔",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "知名男声优，声线阳光有少年感，活跃于动画和广播剧领域。",
+      "works": [
+        {
+          "character": "盖世爱",
+          "work": "我为歌狂",
+          "type": "动画"
+        },
+        {
+          "character": "蒙恬/荆轲",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "杀阡陌",
+          "work": "花千骨",
+          "type": "电视剧"
+        },
+        {
+          "character": "十三阿哥",
+          "work": "步步惊心",
+          "type": "电视剧"
+        },
+        {
+          "character": "沙悟净",
+          "work": "西行纪",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "孙晔配音作品展示",
+          "desc": "动画/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1qG41127US"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "gui-niang",
+      "name": "龟娘",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少女音",
+        "元气音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神",
+        "广播剧"
+      ],
+      "bio": "本名杜晴晴，B站知名UP主、歌手兼配音演员。2014年开始从事配音工作，声线甜美活泼，在二次元圈人气极高。",
+      "works": [
+        {
+          "character": "郭双",
+          "work": "妖怪名单",
+          "type": "动画"
+        },
+        {
+          "character": "萤草",
+          "work": "阴阳师",
+          "type": "游戏"
+        },
+        {
+          "character": "琳妮特",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "丰川祥子",
+          "work": "少女歌剧",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "龟娘配音作品展示",
+          "desc": "动画/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1zu4y1P7J1"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "qin-qiege",
+      "name": "秦且歌",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "清冷音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神",
+        "广播剧"
+      ],
+      "bio": "本名钟巍，网络配音爱好者出身。声线清冷有质感，月声配音社CV，在国产动画和广播剧领域有大量代表作。",
+      "works": [
+        {
+          "character": "格瑞",
+          "work": "凹凸世界",
+          "type": "动画"
+        },
+        {
+          "character": "子羽",
+          "work": "武庚纪",
+          "type": "动画"
+        },
+        {
+          "character": "杜泽",
+          "work": "妖神记",
+          "type": "动画"
+        },
+        {
+          "character": "白细胞",
+          "work": "工作细胞（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "多角色",
+          "work": "原神/雾境序列",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "秦且歌配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1hc411R7as"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "huang-ying",
+      "name": "黄莺",
+      "gender": "女",
+      "avatar": "",
+      "studio": "瞬心文化",
+      "voiceTypes": [
+        "御姐音",
+        "少女音"
+      ],
+      "tags": [
+        "电影配音",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "毕业于上海戏剧学院表演系，2002年加入上海电影译制厂，国家二级演员。声线多变有表现力，在电影译制领域获奖无数，2017年加入瞬心文化任艺术总监。",
+      "works": [
+        {
+          "character": "赫敏（部分）",
+          "work": "哈利·波特系列（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "澈/卡米利安/琼",
+          "work": "无期迷途",
+          "type": "游戏"
+        },
+        {
+          "character": "多角色",
+          "work": "电影译制多部",
+          "type": "电影"
+        },
+        {
+          "character": "多角色",
+          "work": "宝可梦（中配）",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "黄莺配音作品展示",
+          "desc": "动画/电视剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1hN4y1Z73N"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "wei-chao",
+      "name": "魏超",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "电视剧演员",
+        "广播剧"
+      ],
+      "bio": "1987年生于北京，配音演员兼配音导演。声线多变有辨识度，在动画、电视剧和广播剧领域均有大量经典角色。",
+      "works": [
+        {
+          "character": "王权富贵/王富贵",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "萧景睿",
+          "work": "琅琊榜",
+          "type": "电视剧"
+        },
+        {
+          "character": "王杰希",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "清和真人",
+          "work": "古剑奇谭二",
+          "type": "游戏"
+        },
+        {
+          "character": "林惊羽",
+          "work": "青云志",
+          "type": "电视剧"
+        },
+        {
+          "character": "蓝思追",
+          "work": "魔道祖师（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "魏超配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV165411y7xs"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "yang-menglu",
+      "name": "杨梦露",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "御姐音",
+        "清冷音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "广播剧"
+      ],
+      "bio": "知名女声优，声线清冷优雅，在游戏和广播剧领域有出色表现。",
+      "works": [
+        {
+          "character": "黑天鹅",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "杨梦露配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1AA4m137WE"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "xie-ying",
+      "name": "谢莹",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少女音",
+        "元气音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "毕业于中南财经政法大学会计专业，2017年师从配音演员孟祥龙学习配音，后签约上海电影译制厂旗下唯优工作室。声线甜美灵动。",
+      "works": [
+        {
+          "character": "米游游",
+          "work": "极限竞速",
+          "type": "游戏"
+        },
+        {
+          "character": "多角色",
+          "work": "动画/广播剧多部",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "谢莹配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1zy421a7aD"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "feng-xiu",
+      "name": "风袖",
+      "gender": "男",
+      "avatar": "",
+      "studio": "音熊联萌",
+      "voiceTypes": [
+        "青年音",
+        "清冷音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "本名郭鸿博，山西运城人，毕业于播音主持专业。2016年入围腾讯'星漫奖'声优大赛十强后加入音熊联萌。声线清澈有辨识度，在广播剧圈人气极高。",
+      "works": [
+        {
+          "character": "谢俞",
+          "work": "伪装学渣（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "郝仁",
+          "work": "异常生物见闻录",
+          "type": "动画"
+        },
+        {
+          "character": "瑞·埃达斯",
+          "work": "纳米核心",
+          "type": "动画"
+        },
+        {
+          "character": "蚀清",
+          "work": "明日方舟",
+          "type": "游戏"
+        },
+        {
+          "character": "裴惊蛰",
+          "work": "无双（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "风袖配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV12Z421U7RA"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "peng-bo",
+      "name": "彭博",
+      "gender": "男",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "青年音",
+        "大叔音"
+      ],
+      "tags": [
+        "原神",
+        "崩坏系列",
+        "动画配音"
+      ],
+      "bio": "奇响天外工作室创始人，毕业于表演专业。2011年受洪海天邀请为《英雄联盟》配音入行，在游戏配音领域有大量标志性角色。",
+      "works": [
+        {
+          "character": "钟离（限定语音）",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "齐格飞",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "德莱文/卢锡安",
+          "work": "英雄联盟",
+          "type": "游戏"
+        },
+        {
+          "character": "源氏",
+          "work": "守望先锋",
+          "type": "游戏"
+        },
+        {
+          "character": "杰克·威尔斯",
+          "work": "赛博朋克2077",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "彭博配音作品展示",
+          "desc": "动画/电视剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1DQ4y1J7xD"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "zhang-fuzheng",
+      "name": "张福正",
+      "gender": "男",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "艺名歪歪，1995年生于内蒙古巴彦淖尔，毕业于内蒙古大学。2016年参加声优魂大赛被张杰发掘，加入729声工场新声代。声线独特适配度高，擅长沉稳少年和青年角色。",
+      "works": [
+        {
+          "character": "李火旺",
+          "work": "道诡异仙",
+          "type": "动画"
+        },
+        {
+          "character": "邵湛",
+          "work": "这题超纲了（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "夏侯澹",
+          "work": "成何体统",
+          "type": "动画"
+        },
+        {
+          "character": "多角色",
+          "work": "凡人修仙传",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "张福正配音作品展示",
+          "desc": "动画/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1XP41187pE"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "xiao-n",
+      "name": "小N",
+      "gender": "女",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "少女音",
+        "萝莉音",
+        "元气音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "本名蒋丽，毕业于上海外国语大学日语专业，2016年加入奇响天外。声线甜美多变，在游戏和动画译制领域有大量作品。",
+      "works": [
+        {
+          "character": "暮蝶",
+          "work": "无畏契约",
+          "type": "游戏"
+        },
+        {
+          "character": "阿尼娅",
+          "work": "间谍过家家（国语版）",
+          "type": "动画"
+        },
+        {
+          "character": "格蕾修",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "小N配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1Zw411r7Kz"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "ma-zhengyang",
+      "name": "马正阳",
+      "gender": "男",
+      "avatar": "",
+      "studio": "光合积木",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "动画配音",
+        "电视剧演员",
+        "广播剧"
+      ],
+      "bio": "光合积木配音演员，月声配音社社长。声线温暖有质感，为大量热播电视剧男主角配音，在动画领域也有标志性角色。",
+      "works": [
+        {
+          "character": "花城（三郎）",
+          "work": "天官赐福",
+          "type": "动画"
+        },
+        {
+          "character": "萧平旌",
+          "work": "琅琊榜之风起长林",
+          "type": "电视剧"
+        },
+        {
+          "character": "富察·傅恒",
+          "work": "延禧攻略",
+          "type": "电视剧"
+        },
+        {
+          "character": "长孙无极",
+          "work": "扶摇",
+          "type": "电视剧"
+        },
+        {
+          "character": "袁小棠",
+          "work": "少年锦衣卫",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "马正阳配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1tu41137p2"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "lu-yin",
+      "name": "鹿喑",
+      "gender": "男",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "青年音",
+        "性感低音"
+      ],
+      "tags": [
+        "原神",
+        "广播剧",
+        "动画配音"
+      ],
+      "bio": "奇响天外工作室成员，本名董海龙，复旦大学留声社社长。声线低沉有磁性，在原神和广播剧领域积累了大量人气。",
+      "works": [
+        {
+          "character": "空（旅行者）",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "流浪者（散兵）",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "金乌·拾郎",
+          "work": "山海镜花",
+          "type": "游戏"
+        },
+        {
+          "character": "二月红",
+          "work": "三月初三（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "鹿喑配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1Yw41167Go"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "du-mingya",
+      "name": "杜冥鸦",
+      "gender": "女",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "御姐音",
+        "清冷音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "原神",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "奇响天外工作室女声优，2011年起参与广播剧配音。声线清冷有气场，在米哈游系列游戏中贡献了多个标志性女性角色。",
+      "works": [
+        {
+          "character": "凝光",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "八重神子",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "八重樱",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "镜流",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "凤栖梧",
+          "work": "且试天下（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "杜冥鸦配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1mw411z755"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "zhao-qianjing",
+      "name": "赵乾景",
+      "gender": "男",
+      "avatar": "",
+      "studio": "领声文化",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "电影配音",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "上海电影译制厂原配音演员，领声文化联合创始人，B站首档声音竞技节目《我是特优声》SSV冠军。声线清朗自然，在影视译制和动画配音领域经验丰富。",
+      "works": [
+        {
+          "character": "克斯托夫",
+          "work": "冰雪奇缘（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "金子轩",
+          "work": "陈情令",
+          "type": "电视剧"
+        },
+        {
+          "character": "多角色",
+          "work": "斗罗大陆/天涯明月刀",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "赵乾景配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1zw411v79M"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "wu-tao",
+      "name": "吴韬",
+      "gender": "男",
+      "avatar": "",
+      "studio": "艺海佳音",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "艺名倒霉死勒，1991年生于湖南，毕业于西安外国语大学。2015年通过艺海佳音配音培训班入行，声线温暖自然，在广播剧领域深受听众喜爱。",
+      "works": [
+        {
+          "character": "顾飞",
+          "work": "撒野（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "帕洛斯",
+          "work": "凹凸世界",
+          "type": "动画"
+        },
+        {
+          "character": "叶别枝",
+          "work": "山河剑心（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "吴韬配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV16u4y187Kf"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "qian-chen",
+      "name": "钱琛",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "少女音",
+        "元气音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "广播剧"
+      ],
+      "bio": "知名女声优，声线甜美可爱，在游戏和广播剧配音领域活跃。",
+      "works": [
+        {
+          "character": "知更鸟",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "钱琛配音作品展示",
+          "desc": "知更鸟等游戏角色配音",
+          "category": "角色合集",
+          "bvid": "BV1Hz4y1P7dp"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "ju-huahua",
+      "name": "菊花花",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "御姐音",
+        "少女音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "原神",
+        "动画配音"
+      ],
+      "bio": "本名蒋静菊，网配出身，曾任幼儿园老师，现为上海电影译制厂旗下唯优工作室成员。在米哈游系列游戏中配音了多个高人气角色。",
+      "works": [
+        {
+          "character": "雷电将军",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "雷电芽衣",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "黄泉",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "月城柳",
+          "work": "绝区零",
+          "type": "游戏"
+        },
+        {
+          "character": "奥黛丽",
+          "work": "卡拉彼丘",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "菊花花配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV19v411F7Qv"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "ban-ma",
+      "name": "斑马",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "原神",
+        "动画配音",
+        "电视剧演员",
+        "广播剧"
+      ],
+      "bio": "本名马海峰，毕业于中国传媒大学，原光合积木成员。2014年因为《神雕侠侣》杨过配音出道，在《琅琊榜》飞流一角获得广泛关注。同时也是资深配音导演。",
+      "works": [
+        {
+          "character": "枫原万叶",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "飞流",
+          "work": "琅琊榜",
+          "type": "电视剧"
+        },
+        {
+          "character": "少年杨过",
+          "work": "神雕侠侣",
+          "type": "电视剧"
+        },
+        {
+          "character": "何大春",
+          "work": "刺客伍六七",
+          "type": "动画"
+        },
+        {
+          "character": "唐三十六",
+          "work": "择天记",
+          "type": "电视剧"
+        },
+        {
+          "character": "齐乐人",
+          "work": "欢迎来到噩梦游戏（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "斑马配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1SC4y127rv"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "xu-hui",
+      "name": "徐慧",
+      "gender": "女",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "御姐音",
+        "少女音"
+      ],
+      "tags": [
+        "崩坏系列",
+        "原神",
+        "动画配音"
+      ],
+      "bio": "2010年开始为广告配音，2013年转入影视、动画和游戏配音。声线大气有表现力，在米哈游系列和国产动画中有多个重要角色。",
+      "works": [
+        {
+          "character": "夜兰",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "卡芙卡",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "巨噬细胞",
+          "work": "工作细胞（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "远山",
+          "work": "明日方舟",
+          "type": "游戏"
+        },
+        {
+          "character": "罗芭",
+          "work": "Apex英雄",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "徐慧配音作品展示",
+          "desc": "动画/电视剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1yv411F7ia"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "liu-mingyue",
+      "name": "刘明月",
+      "gender": "男",
+      "avatar": "",
+      "studio": "藤韵文化",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧",
+        "电影配音"
+      ],
+      "bio": "本名刘涛，1990年生于河北保定，原北斗企鹅工作室成员，现属藤韵文化。声线多变，从温柔阳光到热血少年均可驾驭，在国产动画和日本动画中译领域有大量角色。",
+      "works": [
+        {
+          "character": "无限",
+          "work": "罗小黑战记（电影）",
+          "type": "动画"
+        },
+        {
+          "character": "端木熙",
+          "work": "灵契",
+          "type": "动画"
+        },
+        {
+          "character": "朝仓陆/捷德",
+          "work": "捷德奥特曼（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "不死川玄弥",
+          "work": "鬼灭之刃（中配）",
+          "type": "动画"
+        },
+        {
+          "character": "金子轩",
+          "work": "魔道祖师（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "徐西临",
+          "work": "过门（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "范闲",
+          "work": "庆余年（有声书）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "刘明月配音作品展示",
+          "desc": "动画/广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1uC4y1P7q6"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "lu-lifeng",
+      "name": "卢力峰DK",
+      "gender": "男",
+      "avatar": "",
+      "studio": "边江工作室",
+      "voiceTypes": [
+        "青年音",
+        "大叔音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "网配CV出身，边江工作室签约配音演员，毕业于上海海洋大学。曾参加B站《我是特优声》剧团季。",
+      "works": [
+        {
+          "character": "嘉德罗斯",
+          "work": "凹凸世界",
+          "type": "动画"
+        },
+        {
+          "character": "裘永思",
+          "work": "天宝伏妖录",
+          "type": "动画"
+        },
+        {
+          "character": "多角色",
+          "work": "广播剧多部",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "卢力峰DK配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1mc41167mv"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "duoduo-poi",
+      "name": "多多poi",
+      "gender": "女",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "萝莉音",
+        "少女音"
+      ],
+      "tags": [
+        "原神",
+        "崩坏系列",
+        "动画配音"
+      ],
+      "bio": "奇响天外工作室成员，与宴宁被称为'两姐妹'。声线甜美可爱，在米哈游系列游戏中有多个人气角色。",
+      "works": [
+        {
+          "character": "荧（旅行者）",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "派蒙",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "罗莎莉娅",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "诺艾尔/七七",
+          "work": "原神",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "多多poi配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1sw41187mG"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "sang-yuze",
+      "name": "桑毓泽",
+      "gender": "男",
+      "avatar": "",
+      "studio": "领声文化",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "原神",
+        "崩坏系列",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "毕业于华东师范大学播音主持艺术专业，领声文化旗下艺人。声线温暖清透，在米哈游系列游戏中有多个重要角色。",
+      "works": [
+        {
+          "character": "那维莱特",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "真理医生",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "泰隆",
+          "work": "斗罗大陆",
+          "type": "动画"
+        },
+        {
+          "character": "陆沨",
+          "work": "小蘑菇（有声书）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "桑毓泽配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1X94y1A7MG"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "qin-ziyi",
+      "name": "秦紫翼",
+      "gender": "女",
+      "avatar": "",
+      "studio": "海天工作室",
+      "voiceTypes": [
+        "少女音",
+        "御姐音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "艺名子楚，毕业于上海视觉艺术学院，海天工作室成员。声线婉转温润，擅长空灵三无的日系少女和冷酷帅气的御姐形象。",
+      "works": [
+        {
+          "character": "卡莎",
+          "work": "英雄联盟",
+          "type": "游戏"
+        },
+        {
+          "character": "虞姬/莫邪",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "多角色",
+          "work": "斗罗大陆",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "秦紫翼配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1Ui4y1a76y"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "wang-chenguang",
+      "name": "王晨光",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "动画配音",
+        "电视剧演员",
+        "广播剧"
+      ],
+      "bio": "毕业于大连艺术学院，北京籍配音演员。声线温和有质感，在国产动画和电视剧配音领域有大量作品。",
+      "works": [
+        {
+          "character": "黄风大圣",
+          "work": "黑神话：悟空",
+          "type": "游戏"
+        },
+        {
+          "character": "吕良",
+          "work": "一人之下",
+          "type": "动画"
+        },
+        {
+          "character": "蓝景仪",
+          "work": "魔道祖师",
+          "type": "动画"
+        },
+        {
+          "character": "月中眠",
+          "work": "全职高手",
+          "type": "动画"
+        },
+        {
+          "character": "弘历/阿晋",
+          "work": "甄嬛传",
+          "type": "电视剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "王晨光配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1tg4y1D78q"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "liu-xiaoyu",
+      "name": "刘校妤",
+      "gender": "女",
+      "avatar": "",
+      "studio": "729声工场",
+      "voiceTypes": [
+        "少女音",
+        "御姐音"
+      ],
+      "tags": [
+        "仙剑奇侠传",
+        "动画配音",
+        "电视剧演员"
+      ],
+      "bio": "原名刘露，毕业于中国传媒大学，729声工场成员。声线清新甜美、表演风格多变，为众多经典影视剧女主角配音，被称为'古装剧御用女声'。",
+      "works": [
+        {
+          "character": "陆贞",
+          "work": "陆贞传奇",
+          "type": "电视剧"
+        },
+        {
+          "character": "武媚娘",
+          "work": "武媚娘传奇",
+          "type": "电视剧"
+        },
+        {
+          "character": "韩菱纱",
+          "work": "仙剑奇侠传四",
+          "type": "游戏"
+        },
+        {
+          "character": "涂山苏苏/红红",
+          "work": "狐妖小红娘",
+          "type": "动画"
+        },
+        {
+          "character": "凯特琳",
+          "work": "双城之战（译制）",
+          "type": "动画"
+        },
+        {
+          "character": "亢金星君",
+          "work": "黑神话：悟空",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "刘校妤配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1cC4y1R797"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "yang-chaoran",
+      "name": "杨超然",
+      "gender": "男",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "原神",
+        "崩坏系列",
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "毕业于四川传媒学院，2022年末加入奇响天外。声线阳光干净，在米哈游系列游戏中迅速走红。",
+      "works": [
+        {
+          "character": "艾尔海森",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "砂金",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "苏",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "李长寿",
+          "work": "师兄啊师兄",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "杨超然配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1ea4y1R7UZ"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "jing-xiangshui",
+      "name": "景向谁依",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "清冷音"
+      ],
+      "tags": [
+        "广播剧"
+      ],
+      "bio": "翼之声中文配音社团成员，1992年生于陕西西安。声线清冷有古风气质，在广播剧领域有极高人气，代表作无数。",
+      "works": [
+        {
+          "character": "盛珉鸥",
+          "work": "飞鸥不下（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "张臣扉",
+          "work": "迪奥先生（广播剧）",
+          "type": "广播剧"
+        },
+        {
+          "character": "叶阑",
+          "work": "影帝（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "景向谁依配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1a94y1N7m6"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "sen-zhongren",
+      "name": "森中人",
+      "gender": "男",
+      "avatar": "",
+      "studio": "森中人文化",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "本名季骜杰，北京森中人文化传媒有限公司创始人。网配出身，声线温暖有磁性，在国产动画和游戏配音领域有大量代表作。",
+      "works": [
+        {
+          "character": "雷狮",
+          "work": "凹凸世界",
+          "type": "动画"
+        },
+        {
+          "character": "大史",
+          "work": "我的三体",
+          "type": "动画"
+        },
+        {
+          "character": "渡边",
+          "work": "战双帕弥什",
+          "type": "游戏"
+        },
+        {
+          "character": "靡道人",
+          "work": "黑神话：悟空",
+          "type": "游戏"
+        },
+        {
+          "character": "小丑",
+          "work": "诡秘之主",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "森中人配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV13N411573Y"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "lin-su",
+      "name": "林簌",
+      "gender": "女",
+      "avatar": "",
+      "studio": "奇响天外",
+      "voiceTypes": [
+        "御姐音",
+        "少女音"
+      ],
+      "tags": [
+        "原神",
+        "崩坏系列",
+        "动画配音",
+        "秦时明月"
+      ],
+      "bio": "本名唐夙凌，奇响天外联合创始人，创始团队唯一女性。2008年接触网络配音，在游戏和动画领域积累了大量标志性女性角色。",
+      "works": [
+        {
+          "character": "琴/甘雨",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "姬子",
+          "work": "崩坏：星穹铁道",
+          "type": "游戏"
+        },
+        {
+          "character": "无量塔姬子",
+          "work": "崩坏3",
+          "type": "游戏"
+        },
+        {
+          "character": "阿轲/公孙离",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "焱妃",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "比比东",
+          "work": "斗罗大陆",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "林簌配音作品展示",
+          "desc": "广播剧配音作品合集",
+          "category": "角色合集",
+          "bvid": "BV1J64y1V7Bv"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "准一线"
+    },
+    {
+      "id": "jin-li",
+      "name": "锦鲤",
+      "gender": "男",
+      "avatar": "",
+      "studio": "边江工作室",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "广播剧"
+      ],
+      "bio": "边江工作室成员，2009年接触网配，2017年正式加入边江工作室成为职业配音演员。曾参加B站声音竞技节目《我是特优声》。",
+      "works": [
+        {
+          "character": "孔鸿俊",
+          "work": "天宝伏妖录",
+          "type": "动画"
+        },
+        {
+          "character": "路明非",
+          "work": "龙族",
+          "type": "动画"
+        },
+        {
+          "character": "凌阳",
+          "work": "鸣潮",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "锦鲤配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV12M4m1m7eE"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "ye-qing",
+      "name": "叶清",
+      "gender": "男",
+      "avatar": "",
+      "studio": "唯奥亚洲",
+      "voiceTypes": [
+        "青年音",
+        "暖男音"
+      ],
+      "tags": [
+        "电影配音",
+        "电视剧演员",
+        "动画配音"
+      ],
+      "bio": "原TVB配音组国语配音员，唯奥亚洲配音机构创始人。声音清爽明亮戏路宽广，为梁朝伟、刘德华、李连杰等大量港片明星配过国语版。",
+      "works": [
+        {
+          "character": "段誉",
+          "work": "天龙八部（TVB版）",
+          "type": "电视剧"
+        },
+        {
+          "character": "周慕云",
+          "work": "花样年华/2046（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "刘建明",
+          "work": "无间道系列（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "黄少天",
+          "work": "全职高手",
+          "type": "动画"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "叶清配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1iK421x77h"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    },
+    {
+      "id": "zhang-pei",
+      "name": "张沛",
+      "gender": "男",
+      "avatar": "",
+      "studio": "",
+      "voiceTypes": [
+        "青年音",
+        "少年音"
+      ],
+      "tags": [
+        "动画配音",
+        "原神"
+      ],
+      "bio": "2018年Dubbing Mental声优大赛总冠军，原音熊联萌成员。声线清朗有力，在国产动画领域有大量主角配音。",
+      "works": [
+        {
+          "character": "萧炎",
+          "work": "斗破苍穹（第三季起）",
+          "type": "动画"
+        },
+        {
+          "character": "托马",
+          "work": "原神",
+          "type": "游戏"
+        },
+        {
+          "character": "雷神",
+          "work": "吞噬星空",
+          "type": "动画"
+        },
+        {
+          "character": "叶秋",
+          "work": "全职高手之巅峰荣耀",
+          "type": "动画"
+        },
+        {
+          "character": "莱特",
+          "work": "绝区零",
+          "type": "游戏"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "张沛配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1Lj421d7RS"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "新生代"
+    },
+    {
+      "id": "xie-tiantian",
+      "name": "谢添天",
+      "gender": "男",
+      "avatar": "",
+      "studio": "音熊联萌",
+      "voiceTypes": [
+        "青年音",
+        "大叔音"
+      ],
+      "tags": [
+        "王者荣耀",
+        "秦时明月",
+        "动画配音",
+        "电影配音"
+      ],
+      "bio": "音熊联萌联合创始人兼CEO，毕业于上海戏剧学院表演系。声音浑厚温和，风格全能，在游戏、动画、电影译制领域均有大量经典角色。",
+      "works": [
+        {
+          "character": "宫本武藏/至尊宝/关羽",
+          "work": "王者荣耀",
+          "type": "游戏"
+        },
+        {
+          "character": "白凤/高渐离/赵高",
+          "work": "秦时明月",
+          "type": "动画"
+        },
+        {
+          "character": "冬日战士",
+          "work": "美国队长（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "纳威",
+          "work": "哈利·波特系列（译制）",
+          "type": "电影"
+        },
+        {
+          "character": "贺朝",
+          "work": "伪装学渣（广播剧）",
+          "type": "广播剧"
+        }
+      ],
+      "videoSamples": [
+        {
+          "title": "谢天添配音作品展示",
+          "desc": "声优都是怪物系列",
+          "category": "角色合集",
+          "bvid": "BV1P1421D7Hp"
+        }
+      ],
+      "bilibiliSpace": "",
+      "tier": "一线"
+    }
+  ]
+}

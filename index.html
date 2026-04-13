@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>声优资料库 - Seiyuu Database</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo-icon">🎙️</span>
+        <span class="logo-text">声优资料库</span>
+      </a>
+      <nav class="header-nav">
+        <button class="nav-btn active" data-view="home">首页</button>
+        <button class="nav-btn" data-view="about">关于</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="main-content">
+    <!-- ========== 首页视图 ========== -->
+    <div id="view-home" class="view active">
+      <!-- Hero 横幅 -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">国内声优资料库</h1>
+          <p class="hero-subtitle">快速定位声线 · 在线试听 Demo · 精选一线声优作品</p>
+        </div>
+      </section>
+
+      <!-- 搜索与筛选 -->
+      <section class="filter-section">
+        <div class="container">
+          <!-- 搜索框 -->
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="搜索声优姓名、角色、作品..." autocomplete="off">
+            <button class="search-clear" id="search-clear" title="清除">&times;</button>
+          </div>
+
+          <!-- 筛选标签 -->
+          <div class="filter-group">
+            <span class="filter-label">性别</span>
+            <div class="filter-tags" id="gender-filters">
+              <button class="filter-tag active" data-filter="gender" data-value="all">全部</button>
+              <button class="filter-tag" data-filter="gender" data-value="男">♂ 男</button>
+              <button class="filter-tag" data-filter="gender" data-value="女">♀ 女</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">声线</span>
+            <div class="filter-tags" id="voice-filters"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">标签</span>
+            <div class="filter-tags" id="tag-filters"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-label">咖位</span>
+            <div class="filter-tags" id="tier-filters"></div>
+          </div>
+
+          <div class="filter-actions">
+            <span class="result-count" id="result-count"></span>
+            <button class="clear-filters-btn" id="clear-filters">清除所有筛选</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 声优卡片列表 -->
+      <section class="seiyuu-grid-section">
+        <div class="container">
+          <div class="seiyuu-grid" id="seiyuu-grid"></div>
+          <div class="empty-state" id="empty-state" style="display:none;">
+            <span class="empty-icon">🔇</span>
+            <p>没有找到匹配的声优</p>
+            <button class="btn-secondary" id="reset-btn">重置筛选</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ========== 详情视图 ========== -->
+    <div id="view-detail" class="view">
+      <div class="container">
+        <button class="back-btn" id="back-btn">← 返回列表</button>
+        <div id="detail-content"></div>
+      </div>
+    </div>
+
+    <!-- ========== 关于视图 ========== -->
+    <div id="view-about" class="view">
+      <div class="container about-content">
+        <h2>关于声优资料库</h2>
+        <p>这是一个面向游戏项目团队的声优资料参考工具，旨在帮助文案策划和语音设计师快速浏览、筛选和试听国内一线声优的资料。</p>
+        
+        <h3>功能说明</h3>
+        <ul>
+          <li><strong>分类筛选</strong> — 按性别、声线类型、标签快速定位目标声优</li>
+          <li><strong>代表作一览</strong> — 清晰展示每位声优的知名配音角色</li>
+          <li><strong>在线试听</strong> — 通过B站视频直接试听声优配音作品</li>
+          <li><strong>响应式设计</strong> — 支持电脑和手机访问</li>
+        </ul>
+
+        <h3>数据维护</h3>
+        <p>所有数据存储在 <code>data/seiyuu-data.json</code> 文件中。编辑该 JSON 文件即可添加、修改声优信息，无需修改前端代码。</p>
+        <p>详细说明请参考项目中的 <code>README.md</code> 文件。</p>
+
+        <h3>视频试听</h3>
+        <p>试听视频来自B站公开内容，使用 iframe 嵌入播放。每个声优可配置多个 B站视频（通过 BV 号）。</p>
+        <p>在 JSON 中编辑 <code>videoSamples</code> 字段即可添加/替换试听视频。</p>
+
+        <h3>免责声明</h3>
+        <p>本资料库仅供内部参考使用，所有声优信息和作品归各权利方所有。视频内容版权归原作者和B站所有。</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>声优资料库 &copy; 2026 · 内部使用 · 数据仅供参考</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
