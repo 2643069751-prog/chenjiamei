@@ -537,6 +537,60 @@ img { max-width: 100%; height: auto; }
   gap: 10px;
 }
 
+/* ---------- 作品页签 ---------- */
+.works-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0;
+}
+
+.works-tab {
+  padding: 8px 18px;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.works-tab:hover:not(:disabled) {
+  color: var(--accent-primary);
+}
+
+.works-tab.active {
+  color: var(--accent-primary);
+  border-bottom-color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.works-tab:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.works-tab-content {
+  display: none;
+}
+
+.works-tab-content.active {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+
+.works-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 24px;
+  font-size: 0.9rem;
+}
+
 .work-card {
   display: flex;
   align-items: center;
@@ -721,7 +775,7 @@ img { max-width: 100%; height: auto; }
   .detail-tags, .detail-voice-types { justify-content: center; }
   .detail-studio { text-align: center; }
   
-  .works-list {
+  .works-list, .works-tab-content.active {
     grid-template-columns: 1fr;
   }
   
@@ -747,3 +801,153 @@ img { max-width: 100%; height: auto; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
 ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #3a3a50; }
+
+/* ---------- 灌篮高手专题 ---------- */
+.slamdunk-section {
+  padding: 16px 0 4px;
+}
+
+.slamdunk-banner {
+  background:
+    linear-gradient(135deg, rgba(59, 130, 246, 0.16) 0%, rgba(15, 23, 42, 0.4) 100%),
+    var(--bg-card);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-left: 4px solid #3b82f6;
+  border-radius: var(--border-radius-lg);
+  padding: 28px 28px 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+
+.slamdunk-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 95% 0%, rgba(59, 130, 246, 0.2) 0%, transparent 45%),
+    radial-gradient(circle at 0% 100%, rgba(14, 165, 233, 0.14) 0%, transparent 45%);
+  pointer-events: none;
+}
+
+.slamdunk-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.slamdunk-icon {
+  font-size: 3rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+
+.slamdunk-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.slamdunk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.slamdunk-stat {
+  background: rgba(59, 130, 246, 0.18);
+  color: #93c5fd;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.slamdunk-cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 8px 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.cast-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--border-radius-sm);
+  font-size: 0.9rem;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.cast-row.in-db {
+  background: rgba(59, 130, 246, 0.1);
+  cursor: pointer;
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.cast-row.in-db:hover {
+  background: rgba(59, 130, 246, 0.18);
+  border-color: rgba(59, 130, 246, 0.7);
+  transform: translateX(4px);
+}
+
+.cast-character {
+  color: var(--text-secondary);
+  font-weight: 500;
+  min-width: 80px;
+}
+
+.cast-arrow {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.cast-cv {
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cast-cv.linked {
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+.cast-badge {
+  background: #3b82f6;
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.slamdunk-tip {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .slamdunk-banner { padding: 20px 16px; }
+  .slamdunk-icon { font-size: 2.2rem; }
+  .slamdunk-title { font-size: 1.1rem; }
+  .slamdunk-cast-grid { grid-template-columns: 1fr; }
+  .cast-character { min-width: 70px; }
+}

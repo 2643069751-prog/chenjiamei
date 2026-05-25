@@ -47,7 +47,11 @@
     detailContent: $('#detail-content'),
     backBtn: $('#back-btn'),
     logoLink: $('#logo-link'),
+    slamdunkSection: $('#slamdunk-section'),
+    slamdunkContent: $('#slamdunk-content'),
   };
+
+  const SLAMDUNK_TAG = '灌篮高手电影版本';
 
   // ---------- 初始化 ----------
   async function init() {
@@ -258,6 +262,7 @@
 
     filteredList = list;
     renderGrid(list);
+    renderSlamDunkSection();
   }
 
   function resetFilters() {
@@ -345,6 +350,63 @@
     return map[type] || type;
   }
 
+  // ---------- 灌篮高手专题渲染 ----------
+  function renderSlamDunkSection() {
+    if (!allData.slamDunkMovie) {
+      dom.slamdunkSection.style.display = 'none';
+      return;
+    }
+    const isTagSelected = currentFilters.tags.includes(SLAMDUNK_TAG);
+    const isSearchHit = currentFilters.search &&
+      ('灌篮高手'.includes(currentFilters.search) || currentFilters.search.includes('灌篮'));
+
+    if (!isTagSelected && !isSearchHit) {
+      dom.slamdunkSection.style.display = 'none';
+      return;
+    }
+
+    const movie = allData.slamDunkMovie;
+    const seiyuuMap = {};
+    allData.seiyuus.forEach(s => { seiyuuMap[s.id] = s; });
+
+    const castHtml = movie.cast.map(c => {
+      const inDb = c.seiyuuId && seiyuuMap[c.seiyuuId];
+      const cvClass = inDb ? 'cast-cv linked' : 'cast-cv';
+      const onclick = inDb ? `onclick="window.App.showDetail('${c.seiyuuId}')"` : '';
+      const badge = inDb ? '<span class="cast-badge">资料库</span>' : '';
+      return `
+        <div class="cast-row ${inDb ? 'in-db' : ''}" ${onclick}>
+          <span class="cast-character">${c.character}</span>
+          <span class="cast-arrow">→</span>
+          <span class="${cvClass}">${c.cv}${badge}</span>
+        </div>
+      `;
+    }).join('');
+
+    const dbCount = movie.cast.filter(c => c.seiyuuId && seiyuuMap[c.seiyuuId]).length;
+
+    dom.slamdunkContent.innerHTML = `
+      <div class="slamdunk-banner">
+        <div class="slamdunk-header">
+          <div class="slamdunk-icon">🏀</div>
+          <div>
+            <h2 class="slamdunk-title">${movie.title}</h2>
+            <div class="slamdunk-meta">
+              <span>译制：${movie.translation.studio}</span>
+              <span>·</span>
+              <span>配音导演：${movie.translation.director}</span>
+              <span>·</span>
+              <span class="slamdunk-stat">资料库已收录 ${dbCount} / ${movie.cast.length}</span>
+            </div>
+          </div>
+        </div>
+        <div class="slamdunk-cast-grid">${castHtml}</div>
+        <div class="slamdunk-tip">💡 浅色行表示资料库已收录该声优，点击可跳转详情页</div>
+      </div>
+    `;
+    dom.slamdunkSection.style.display = 'block';
+  }
+
   // ---------- 详情页渲染 ----------
   function showDetail(seiyuuId) {
     const seiyuu = allData.seiyuus.find(s => s.id === seiyuuId);
@@ -362,15 +424,36 @@
       `<span class="detail-tag">${t}</span>`
     ).join('');
 
-    const worksHtml = seiyuu.works.map(w => `
-      <div class="work-card">
-        <span class="work-type-badge ${getWorkTypeClass(w.type)}">${getTypeLabel(w.type)}</span>
-        <div class="work-info">
-          <div class="work-char">${w.character}</div>
-          <div class="work-name">${w.work}</div>
+    // 按类型分组作品
+    const workCategories = {
+      '\u6e38\u620f': seiyuu.works.filter(w => w.type === '\u6e38\u620f'),
+      '\u52a8\u6f2b': seiyuu.works.filter(w => w.type === '\u52a8\u753b' || w.type === '\u7535\u5f71'),
+      '\u5e7f\u64ad\u5267': seiyuu.works.filter(w => w.type === '\u5e7f\u64ad\u5267'),
+      '\u5176\u5b83': seiyuu.works.filter(w => w.type === '\u7535\u89c6\u5267' || !(['\u6e38\u620f','\u52a8\u753b','\u7535\u5f71','\u5e7f\u64ad\u5267'].includes(w.type)))
+    };
+
+    const tabNames = ['\u6e38\u620f', '\u52a8\u6f2b', '\u5e7f\u64ad\u5267', '\u5176\u5b83'];
+    const firstNonEmpty = tabNames.find(t => workCategories[t].length > 0) || '\u6e38\u620f';
+
+    const tabsHtml = tabNames.map(t => {
+      const count = workCategories[t].length;
+      const activeClass = t === firstNonEmpty ? 'active' : '';
+      return `<button class="works-tab ${activeClass}" data-tab="${t}" ${count === 0 ? 'disabled' : ''}>${t}${count > 0 ? ' (' + count + ')' : ''}</button>`;
+    }).join('');
+
+    const tabContentsHtml = tabNames.map(t => {
+      const activeClass = t === firstNonEmpty ? 'active' : '';
+      const items = workCategories[t].map(w => `
+        <div class="work-card">
+          <span class="work-type-badge ${getWorkTypeClass(w.type)}">${getTypeLabel(w.type)}</span>
+          <div class="work-info">
+            <div class="work-char">${w.character}</div>
+            <div class="work-name">${w.work}</div>
+          </div>
         </div>
-      </div>
-    `).join('');
+      `).join('') || '<div class="works-empty">\u6682\u65e0\u6b64\u7c7b\u4f5c\u54c1</div>';
+      return `<div class="works-tab-content ${activeClass}" data-tab="${t}">${items}</div>`;
+    }).join('');
 
     const videoHtml = renderVideoSection(seiyuu);
 
@@ -402,7 +485,8 @@
 
       <div class="detail-section">
         <h2 class="detail-section-title">🎬 代表作品</h2>
-        <div class="works-list">${worksHtml}</div>
+        <div class="works-tabs">${tabsHtml}</div>
+        <div class="works-tab-panels">${tabContentsHtml}</div>
       </div>
 
       <div class="detail-section">
@@ -413,6 +497,18 @@
     `;
 
     showView('detail');
+
+    // 绑定作品页签切换
+    dom.detailContent.querySelectorAll('.works-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        if (tab.disabled) return;
+        dom.detailContent.querySelectorAll('.works-tab').forEach(t => t.classList.remove('active'));
+        dom.detailContent.querySelectorAll('.works-tab-content').forEach(c => c.classList.remove('active'));
+        tab.classList.add('active');
+        dom.detailContent.querySelector(`.works-tab-content[data-tab="${tab.dataset.tab}"]`).classList.add('active');
+      });
+    });
+
     window.scrollTo({ top: 0 });
   }
 
